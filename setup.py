@@ -8,14 +8,14 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='app-d',
     packages=find_packages(),
-    version='0.1',
+    version='0.2',
     description='Automated Python Push-Deploy',
     long_description=long_description,
     py_modules=['app-d', 'server'],
     author='Ivo Janssen',
     author_email='hello@ivo.la',
     url='https://github.com/foxxyz/app-d',
-    download_url='https://github.com/foxxyz/app-d/tarball/0.1',
+    download_url='https://github.com/foxxyz/app-d/tarball/0.2',
     keywords=['deployment', 'git', 'push-deploy'],
     classifiers=[
         'Development Status :: 3 - Alpha',
