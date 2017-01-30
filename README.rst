@@ -1,16 +1,16 @@
 app-d: Automated Python Push-Deploy
 ===================================
 
-Setting up a git push deployment `isn't terribly difficult <http://krisjordan.com/essays/setting-up-push-to-deploy-with-git>`_, but it gets tedious if you do it often.
+Setting up a git push deployment target `isn't terribly difficult <http://krisjordan.com/essays/setting-up-push-to-deploy-with-git>`_, but it gets tedious if you do it often.
 
-With *app-d*, creating new push-deploy setups becomes a little bit easier. In addition, app-d sets up a remote repository that other developers with group permissions can push and deploy to as well.
+With **app-d**, creating new push-deploy setups becomes a little bit easier. In addition, app-d sets up a remote repository that other developers with group permissions can push and deploy to as well.
 
 What Does it Do?
 ----------------
 
 In short, app-d runs through the following steps:
 
-* Connect your remote server
+* Connect to your remote server
 * Add a group
 * Add your user to the new group
 * Create directories for the remote repository and the application itself
@@ -25,7 +25,9 @@ Requirements
 Installation
 ------------
 
-1. ``pip install -r requirements.txt``
+.. code-block:: bash
+	
+	$ pip install app-d
 
 Usage
 -----
