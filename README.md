@@ -10,12 +10,12 @@ What Does it Do?
 
 In short, app-d runs through the following steps:
 
- * Connecting to your remote server
- * Adding a group
- * Adding your user to the new group
- * Creating directories for the remote repository and the application itself
- * Setting correct permissions and handling ACL for these directories
- * Installing a post-receive hook for correct deployment
+ * Connect your remote server
+ * Add a group
+ * Add your user to the new group
+ * Create directories for the remote repository and the application itself
+ * Set correct permissions and handling ACL for these directories
+ * Install a post-receive hook for correct deployment
 
 Requirements
 ------------
