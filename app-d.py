@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 from server import Server
 
-if __name__ == '__main__':
+
+def main():
+    # Ask for basic info
     app_name = input('Name of app: ')
     server_name = input('Hostname to deploy on: ')
     group_name = input('Group to use [{}]: '.format(app_name)) or app_name
@@ -61,3 +63,7 @@ if __name__ == '__main__':
     remote_path = '{}:{}'.format(server_name, repo_dir)
     print('Done! You can now add a new git remote {}:'.format(remote_path), end="\n\n")
     print("\tgit remote add public {}".format(remote_path), end="\n\n")
+
+
+if __name__ == '__main__':
+    main()
